@@ -18,15 +18,13 @@ public class OgrenciKayitSistemi {
         Student s1 = new Student("İnek Şaban","123","4",tarih,biyoloji,edebiyat);
         s1.addBulkExamNote(70,80,90);
         s1.addVerbalNote(20,20,30);
-
+        
         s1.isPass();
-
-
+        
         Student s2 = new Student("Güdük Necmi","321","4",tarih,biyoloji,edebiyat);
         s2.addBulkExamNote(60,50,30);
         s2.addVerbalNote(50,60,30);
 
         s2.isPass();
-
     }
 }
