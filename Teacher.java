@@ -2,7 +2,6 @@ package Proje;
 
 public class Teacher {
     String name;
-    //mpno = cep telefonu numarası
     String mpno;
     String branch;
 
